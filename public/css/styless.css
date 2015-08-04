@@ -1,0 +1,9 @@
+#estatico{
+position: fixed;
+float: right;
+right: 450px; //Mientras más pixeles más separado estará de la derecha.
+}
+#titulos{
+
+	 text-align: right;
+}

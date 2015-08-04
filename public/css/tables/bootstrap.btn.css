@@ -1,0 +1,45 @@
+.btn-thinkin { 
+  color: #ffffff; 
+  background-color: #354757; 
+  border-color: #130269; 
+} 
+ 
+.btn-thinkin:hover, 
+.btn-thinkin:focus, 
+.btn-thinkin:active, 
+.btn-thinkin.active, 
+.open .dropdown-toggle.btn-thinkin { 
+  color: #ffffff; 
+  background-color: #3E658A; 
+  border-color: #130269; 
+} 
+ 
+.btn-thinkin:active, 
+.btn-thinkin.active, 
+.open .dropdown-toggle.btn-thinkin { 
+  background-image: none; 
+} 
+ 
+.btn-thinkin.disabled, 
+.btn-thinkin[disabled], 
+fieldset[disabled] .btn-thinkin, 
+.btn-thinkin.disabled:hover, 
+.btn-thinkin[disabled]:hover, 
+fieldset[disabled] .btn-thinkin:hover, 
+.btn-thinkin.disabled:focus, 
+.btn-thinkin[disabled]:focus, 
+fieldset[disabled] .btn-thinkin:focus, 
+.btn-thinkin.disabled:active, 
+.btn-thinkin[disabled]:active, 
+fieldset[disabled] .btn-thinkin:active, 
+.btn-thinkin.disabled.active, 
+.btn-thinkin[disabled].active, 
+fieldset[disabled] .btn-thinkin.active { 
+  background-color: #354757; 
+  border-color: #130269; 
+} 
+ 
+.btn-thinkin .badge { 
+  color: #354757; 
+  background-color: #ffffff; 
+}
