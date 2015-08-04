@@ -19,5 +19,5 @@ $q->bindParam(':formapago_id', $_POST['formapago'], PDO::PARAM_STR);
 $q->bindParam(':plazopago_id', $_POST['plazopago'], PDO::PARAM_STR);
 $q->bindParam(':perfil', $_POST['perfil'], PDO::PARAM_STR);
 $q->execute();
-header("location: ../index.php")
+header("location: ../views/usuario/index.php")
 ?>

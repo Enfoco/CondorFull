@@ -18,7 +18,7 @@
         // Delete Data
         $id = $_POST['id'];
         $PDO->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-        $sql = "Delete from mantecorre where id=?";
+        $sql = "Delete from mantepre where id=?";
         $stmt = $PDO->prepare($sql);
         $stmt->execute(array($id));
         $PDO = null;
@@ -38,7 +38,7 @@
 <div class="container">
     <div class="row">
         <div class="row">
-            <h3>Eliminar Actividad Correctiva</h3>
+            <h3>Eliminar Actividad Preventiva</h3>
         </div>
     <form method="POST" action="delete.php">
         <input type="hidden" name="id" value="<?php echo $id;?>" />

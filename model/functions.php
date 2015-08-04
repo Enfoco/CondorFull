@@ -3,8 +3,8 @@
 Function  __ListarPlazos(){
 
 $host = 'localhost';
-$base = 'u746668508_condo';
-$usuario = 'u746668508_condo';
+$base = 'cargar';
+$usuario = 'root';
 $password ='Elguru47';
 try{
     $conn = new PDO('mysql:host='.$host.';dbname='.$base.'', $usuario, $password);
@@ -24,8 +24,8 @@ try{
   Function  __ConexionPDOActividad(){
 
 $host = 'localhost';
-$base = 'u746668508_condo';
-$usuario = 'u746668508_condo';
+$base = 'cargar';
+$usuario = 'root';
 $password ='Elguru47';
 try{
     $conn = new PDO('mysql:host='.$host.';dbname='.$base.'', $usuario, $password);
@@ -69,8 +69,8 @@ if(empty($rows)) {
   Function  __ListarFrecuencia(){
 
 $host = 'localhost';
-$base = 'u746668508_condo';
-$usuario = 'u746668508_condo';
+$base = 'cargar';
+$usuario = 'root';
 $password ='Elguru47';
 try{
     $conn = new PDO('mysql:host='.$host.';dbname='.$base.'', $usuario, $password);
@@ -91,8 +91,8 @@ try{
   Function  __ListarCiudades(){
 
 $host = 'localhost';
-$base = 'u746668508_condo';
-$usuario = 'u746668508_condo';
+$base = 'cargar';
+$usuario = 'root';
 $password ='Elguru47';
 try{
     $conn = new PDO('mysql:host='.$host.';dbname='.$base.'', $usuario, $password);
@@ -111,10 +111,9 @@ try{
 
 
   Function  __ListarPagos(){
-
 $host = 'localhost';
-$base = 'u746668508_condo';
-$usuario = 'u746668508_condo';
+$base = 'cargar';
+$usuario = 'root';
 $password ='Elguru47';
 try{
     $conn = new PDO('mysql:host='.$host.';dbname='.$base.'', $usuario, $password);
@@ -135,8 +134,8 @@ try{
   Function  __ListarPerfiles(){
 
 $host = 'localhost';
-$base = 'u746668508_condo';
-$usuario = 'u746668508_condo';
+$base = 'cargar';
+$usuario = 'root';
 $password ='Elguru47';
 try{
     $conn = new PDO('mysql:host='.$host.';dbname='.$base.'', $usuario, $password);
@@ -156,8 +155,8 @@ try{
     Function  __ListarUsuarios(){
 
 $host = 'localhost';
-$base = 'u746668508_condo';
-$usuario = 'u746668508_condo';
+$base = 'cargar';
+$usuario = 'root';
 $password ='Elguru47';
 try{
     $conn = new PDO('mysql:host='.$host.';dbname='.$base.'', $usuario, $password);
@@ -179,8 +178,8 @@ try{
     Function  __comboproveedor(){
 
 $host = 'localhost';
-$base = 'u746668508_condo';
-$usuario = 'u746668508_condo';
+$base = 'cargar';
+$usuario = 'root';
 $password ='Elguru47';
 try{
     $conn = new PDO('mysql:host='.$host.';dbname='.$base.'', $usuario, $password);
@@ -200,8 +199,8 @@ try{
       Function  __ListarTmotor(){
 
 $host = 'localhost';
-$base = 'u746668508_condo';
-$usuario = 'u746668508_condo';
+$base = 'cargar';
+$usuario = 'root';
 $password ='Elguru47';
 try{
     $conn = new PDO('mysql:host='.$host.';dbname='.$base.'', $usuario, $password);
@@ -221,8 +220,8 @@ try{
         Function  __ListarCombustible(){
 
 $host = 'localhost';
-$base = 'u746668508_condo';
-$usuario = 'u746668508_condo';
+$base = 'cargar';
+$usuario = 'root';
 $password ='Elguru47';
 try{
     $conn = new PDO('mysql:host='.$host.';dbname='.$base.'', $usuario, $password);
@@ -243,8 +242,8 @@ try{
           Function  __ListarActividad(){
 
 $host = 'localhost';
-$base = 'u746668508_condo';
-$usuario = 'u746668508_condo';
+$base = 'cargar';
+$usuario = 'root';
 $password ='Elguru47';
 try{
     $conn = new PDO('mysql:host='.$host.';dbname='.$base.'', $usuario, $password);
@@ -265,8 +264,8 @@ try{
           Function  __ListarCcarga(){
 
 $host = 'localhost';
-$base = 'u746668508_condo';
-$usuario = 'u746668508_condo';
+$base = 'cargar';
+$usuario = 'root';
 $password ='Elguru47';
 try{
     $conn = new PDO('mysql:host='.$host.';dbname='.$base.'', $usuario, $password);
@@ -287,8 +286,8 @@ try{
             Function  __ListarEtapas(){
 
 $host = 'localhost';
-$base = 'u746668508_condo';
-$usuario = 'u746668508_condo';
+$base = 'cargar';
+$usuario = 'root';
 $password ='Elguru47';
 try{
     $conn = new PDO('mysql:host='.$host.';dbname='.$base.'', $usuario, $password);
@@ -309,8 +308,8 @@ try{
           Function  __ListarEquipos(){
 
 $host = 'localhost';
-$base = 'u746668508_condo';
-$usuario = 'u746668508_condo';
+$base = 'cargar';
+$usuario = 'root';
 $password ='Elguru47';
 try{
     $conn = new PDO('mysql:host='.$host.';dbname='.$base.'', $usuario, $password);
@@ -331,8 +330,8 @@ try{
           Function  __ListarEmpleados(){
 
 $host = 'localhost';
-$base = 'u746668508_condo';
-$usuario = 'u746668508_condo';
+$base = 'cargar';
+$usuario = 'root';
 $password ='Elguru47';
 try{
     $conn = new PDO('mysql:host='.$host.';dbname='.$base.'', $usuario, $password);
@@ -354,8 +353,8 @@ try{
           Function  __ListarEquiposxCliente(){
 
 $host = 'localhost';
-$base = 'u746668508_condo';
-$usuario = 'u746668508_condo';
+$base = 'cargar';
+$usuario = 'root';
 $password ='Elguru47';
 try{
     $conn = new PDO('mysql:host='.$host.';dbname='.$base.'', $usuario, $password);

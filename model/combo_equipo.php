@@ -1,8 +1,8 @@
 <?php
 $host = "localhost";
-$user = "u746668508_condo";
+$user = "root";
 $clave = "Elguru47";
-$datbase = "u746668508_condo";
+$datbase = "cargar";
 $conectar=mysql_connect($host,$user,$clave);
 
 mysql_select_db($datbase, $conectar);

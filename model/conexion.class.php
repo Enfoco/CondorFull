@@ -10,8 +10,8 @@ class Conexion
         try {
 
             $host = 'localhost';
-            $db =   'u746668508_condo';
-            $user = 'u746668508_condo';
+            $db =   'cargar';
+            $user = 'root';
             $pwd =  'Elguru47';
             $this->dbh = new PDO('mysql:host='.$host.';dbname='.$db, $user, $pwd);
             $this->dbh->exec("SET CHARACTER SET utf8");

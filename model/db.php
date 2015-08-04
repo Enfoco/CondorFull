@@ -12,8 +12,8 @@
         die($e->getMessage());  
     }*/
 $host = 'localhost';
-$base = 'u746668508_condo';
-$usuario = 'u746668508_condo';
+$base = 'cargar';
+$usuario = 'root';
 $password ='Elguru47';
 try{
     $PDO = new PDO('mysql:host='.$host.';dbname='.$base.'', $usuario, $password);
